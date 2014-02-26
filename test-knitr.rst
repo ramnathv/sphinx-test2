@@ -47,10 +47,10 @@ Polycharts
           &lt;/head&gt;
           &lt;body &gt;
             
-            &lt;div id = &#039;chart113be19d41217&#039; class = &#039;rChart polycharts&#039;&gt;&lt;/div&gt;    
+            &lt;div id = &#039;chart11f51301fe214&#039; class = &#039;rChart polycharts&#039;&gt;&lt;/div&gt;    
             &lt;script type=&#039;text/javascript&#039;&gt;
             var chartParams = {
-         &quot;dom&quot;: &quot;chart113be19d41217&quot;,
+         &quot;dom&quot;: &quot;chart11f51301fe214&quot;,
         &quot;width&quot;:    600,
         &quot;height&quot;:    400,
         &quot;layers&quot;: [
@@ -77,12 +77,12 @@ Polycharts
         &quot;facet&quot;: [],
         &quot;guides&quot;: [],
         &quot;coord&quot;: [],
-        &quot;id&quot;: &quot;chart113be19d41217&quot; 
+        &quot;id&quot;: &quot;chart11f51301fe214&quot; 
         }
             _.each(chartParams.layers, function(el){
                 el.data = polyjs.data(el.data)
             })
-            var graph_chart113be19d41217 = polyjs.chart(chartParams);
+            var graph_chart11f51301fe214 = polyjs.chart(chartParams);
         &lt;/script&gt;
             
             &lt;script&gt;&lt;/script&gt;    
@@ -91,7 +91,7 @@ Polycharts
         ' scrolling='no' seamless class='rChart 
         polycharts
          '
-        id='iframe-chart113be19d41217'>
+        id='iframe-chart11f51301fe214'>
         </iframe>
         <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
@@ -101,6 +101,8 @@ Polycharts
 .. only:: latex
 
    .. image:: _knit/_figures/chart1.png
+
+`Live Example </playground.html#?n=_knit%2Fexample1.R>`_
 
 
 NVD3
@@ -148,14 +150,14 @@ NVD3
           &lt;/head&gt;
           &lt;body &gt;
             
-            &lt;div id = &#039;chart113be6f5dfa5c&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+            &lt;div id = &#039;chart11f514a48e48d&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
             &lt;script type=&#039;text/javascript&#039;&gt;
          $(document).ready(function(){
-              drawchart113be6f5dfa5c()
+              drawchart11f514a48e48d()
             });
-            function drawchart113be6f5dfa5c(){  
+            function drawchart11f514a48e48d(){  
               var opts = {
-         &quot;dom&quot;: &quot;chart113be6f5dfa5c&quot;,
+         &quot;dom&quot;: &quot;chart11f514a48e48d&quot;,
         &quot;width&quot;:    600,
         &quot;height&quot;:    400,
         &quot;process_data&quot;: true,
@@ -163,7 +165,7 @@ NVD3
         &quot;y&quot;: &quot;Freq&quot;,
         &quot;group&quot;: &quot;Eye&quot;,
         &quot;type&quot;: &quot;multiBarChart&quot;,
-        &quot;id&quot;: &quot;chart113be6f5dfa5c&quot; 
+        &quot;id&quot;: &quot;chart11f514a48e48d&quot; 
         },
                 data = [
          {
@@ -319,7 +321,7 @@ NVD3
         ' scrolling='no' seamless class='rChart 
         nvd3
          '
-        id='iframe-chart113be6f5dfa5c'>
+        id='iframe-chart11f514a48e48d'>
         </iframe>
         <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
@@ -370,10 +372,10 @@ Morris
           &lt;/head&gt;
           &lt;body &gt;
             
-            &lt;div id = &#039;chart113be39bfac4e&#039; class = &#039;rChart morris&#039;&gt;&lt;/div&gt;    
+            &lt;div id = &#039;chart11f515a0a8b61&#039; class = &#039;rChart morris&#039;&gt;&lt;/div&gt;    
             &lt;script type=&#039;text/javascript&#039;&gt;
             var chartParams = {
-         &quot;element&quot;: &quot;chart113be39bfac4e&quot;,
+         &quot;element&quot;: &quot;chart11f515a0a8b61&quot;,
         &quot;width&quot;:            600,
         &quot;height&quot;:            400,
         &quot;xkey&quot;: &quot;date&quot;,
@@ -4209,7 +4211,7 @@ Morris
         ],
         &quot;pointSize&quot;:              0,
         &quot;lineWidth&quot;:              1,
-        &quot;id&quot;: &quot;chart113be39bfac4e&quot;,
+        &quot;id&quot;: &quot;chart11f515a0a8b61&quot;,
         &quot;labels&quot;: [ &quot;psavert&quot;, &quot;uempmed&quot; ] 
         },
               chartType = &quot;Line&quot;
@@ -4222,7 +4224,7 @@ Morris
         ' scrolling='no' seamless class='rChart 
         morris
          '
-        id='iframe-chart113be39bfac4e'>
+        id='iframe-chart11f515a0a8b61'>
         </iframe>
         <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
@@ -4271,12 +4273,12 @@ Highcharts
           &lt;/head&gt;
           &lt;body &gt;
             
-            &lt;div id = &#039;chart113be3b477e03&#039; class = &#039;rChart highcharts&#039;&gt;&lt;/div&gt;    
+            &lt;div id = &#039;chart11f51466f34d4&#039; class = &#039;rChart highcharts&#039;&gt;&lt;/div&gt;    
             &lt;script type=&#039;text/javascript&#039;&gt;
             (function($){
                 $(function () {
                     var chart = new Highcharts.Chart({
-         &quot;dom&quot;: &quot;chart113be3b477e03&quot;,
+         &quot;dom&quot;: &quot;chart11f51466f34d4&quot;,
         &quot;width&quot;:            600,
         &quot;height&quot;:            400,
         &quot;credits&quot;: {
@@ -5515,9 +5517,9 @@ Highcharts
         &quot;subtitle&quot;: {
          &quot;text&quot;: null 
         },
-        &quot;id&quot;: &quot;chart113be3b477e03&quot;,
+        &quot;id&quot;: &quot;chart11f51466f34d4&quot;,
         &quot;chart&quot;: {
-         &quot;renderTo&quot;: &quot;chart113be3b477e03&quot; 
+         &quot;renderTo&quot;: &quot;chart11f51466f34d4&quot; 
         } 
         });
                 });
@@ -5530,7 +5532,7 @@ Highcharts
         ' scrolling='no' seamless class='rChart 
         highcharts
          '
-        id='iframe-chart113be3b477e03'>
+        id='iframe-chart11f51466f34d4'>
         </iframe>
         <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
@@ -5580,10 +5582,10 @@ Leaflet
           &lt;/head&gt;
           &lt;body &gt;
             
-            &lt;div id = &#039;chart113bef287566&#039; class = &#039;rChart leaflet&#039;&gt;&lt;/div&gt;    
+            &lt;div id = &#039;chart11f5173248c89&#039; class = &#039;rChart leaflet&#039;&gt;&lt;/div&gt;    
             &lt;script&gt;
           var spec = {
-         &quot;dom&quot;: &quot;chart113bef287566&quot;,
+         &quot;dom&quot;: &quot;chart11f5173248c89&quot;,
         &quot;width&quot;:            600,
         &quot;height&quot;:            400,
         &quot;urlTemplate&quot;: &quot;http://{s}.tile.osm.org/{z}/{x}/{y}.png&quot;,
@@ -5592,7 +5594,7 @@ Leaflet
         },
         &quot;center&quot;: [         51.505,          -0.09 ],
         &quot;zoom&quot;:             13,
-        &quot;id&quot;: &quot;chart113bef287566&quot; 
+        &quot;id&quot;: &quot;chart11f5173248c89&quot; 
         }
         
           var map = L.map(spec.dom, spec.mapOpts)
@@ -5638,7 +5640,7 @@ Leaflet
         ' scrolling='no' seamless class='rChart 
         leaflet
          '
-        id='iframe-chart113bef287566'>
+        id='iframe-chart11f5173248c89'>
         </iframe>
         <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 

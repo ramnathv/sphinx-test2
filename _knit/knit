@@ -62,3 +62,4 @@ make_iframe <- function(r1){
 args = commandArgs(trailingOnly = TRUE)
 library(methods)
 knit(args[1], args[2])
+purl(args[1])

@@ -102,7 +102,7 @@ Polycharts
 
    .. image:: _knit/_figures/chart1.png
 
-`Live Example </playground.html#?n=_knit%2Fexample1.R>`_
+`Live Example <playground.html#?n=_static%2Fexample1.R>`_
 
 
 NVD3
